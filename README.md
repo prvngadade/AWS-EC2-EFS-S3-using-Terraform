@@ -10,3 +10,14 @@
 8. Mounting the EFS volume to the EC2 instance.
 9. Creating an S3 bucket with private access.
 10. Uploading data into the S3 bucket.
+11. Creating an OAI (Origin Access Identity) for the CloudFront distribution!
+12. Creating an AWS CloudFront distribution for that data uploaded into the S3 bucket.
+13. Creating an IAM Bucket Policy for CloudFront Distribution.
+14. Applying the bucket policy to the S3 Bucket so that CloudFront Distribution can access the private contents of the S3 bucket.
+
+# Commands Need to use 
+
+terraform init
+terraform plan
+terraform validate
+terraform apply
